@@ -1,0 +1,44 @@
+.h1  {
+    width: 150;
+    height: 150;
+    background: red;
+    border:   20px solid #548;
+    font-size: large;
+    font-style: initial;
+    text-align: center;
+    color: khaki;
+    padding: 30px;
+    margin-top: 30px;
+}
+.img {
+    padding: 30px;
+    display: block;
+    text-align: center; 
+    font-style: italic;
+    margin-top: 0; 
+    margin-bottom: 5px; 
+}
+
+p {
+    padding: 30px;
+    text-align: center; 
+    font-style: italic;
+    font-size: large;
+    color: crimson;
+}
+
+.img-conteiner {
+    padding: 30px;
+    display: block;
+    text-align: center; 
+    font-style: italic;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    outline: 2px solid black;
+}
+.copyright {
+    background: black;
+    outline: 2px solid black;
+    color: khaki;
+    margin-bottom: 15px;
+}
