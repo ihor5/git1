@@ -1,60 +1,65 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Список продуктов</title>
-</head>
-<body>
-    <h1>Список продуктов №1</h1>
-<ul>
-    <li>шоколад</li>
-    <li>молоко</li>
-    <li>хлеб</li>
-    <li>вода</li>
-</ul>
-
-<p><a href="atb.html">ссылка на другой файл)</a> </p>
-<form>
-    <p>что-то вкусное</p>
-    <div>
-        <input type="radio" name="milka" value="milka">
-        <label>milka</label>
-        <input type="radio"  name="snickers" value="snickers">
-        <label>snickers</label>
-    </div>
-
-    <div>
-        <p><b>Вариант 2 если нельзя взять оба варианта)</b></p>
-        <p><input name="choco" type="radio" value="milka" checked> milka</p>
-        <p><input name="choco" type="radio" value="snickers"> snickers</p>
-    </div>
-      <div>
-        <p><b>Что уже взял</b></p>
-        <p><input type="checkbox" name="option1" value="a1" checked>milka<Br>
-        <input type="checkbox" name="option2" value="a2">snickers<Br>
-        <input type="checkbox" name="option3" value="a3">milk<Br> 
-        <input type="checkbox" name="option4" value="a4">bred<Br> 
-    </div>
-    <div>
-         <p><input type="text">Дополнение</p>
-     </div>
-    <br>
-    <div>
-        <p><select size="5" multiple name="MARKET">
-         <option disabled>Выбор магазина</option>
-         <option value="Novus">Novus</option>
-         <option selected value="ATB">ATB</option>
-         <option value="Silpo">Silpo</option>
-         <input type="submit" value="ГОТОВО"></p>
-     </div>
-    
-   
-
-<form>    
-     
-
-
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> css-diner-shopping-list</title>
+        <link rel="stylesheet"  href="css/style.css">
+    </head>
+    <body>
+        <header class="ba-header">
+            <h1>CSS Diner Shopping List</h1>
+            <h3>Let`s go to the mall!</h3>
+        </header>
+        <div class="ba-container">
+            <main>
+                <ul class="ba-list">
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                            <span>A lot of pickles
+                                <small class="ba-description">for the next lessons about css</small>
+                            </span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox">
+                            <span>10 apples
+                                <small class="ba-description">for more css manipulations</small></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                <span>20 oranges
+                                    <small class="ba-description">because they are awesome</small></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox">
+                                    <span>13 plates
+                                        <small class="ba-description">hm.. they always disappear</small></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="checkbox">
+                                        <span>15 bentos</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="checkbox">
+                                        <span>1 bottle of Sake ^_^
+                                            <small class="ba-description">for my friends</small></span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </main>
+                            <footer class="ba-footer">
+                                <h3>Bon appetit:-D</h3>
+                            </footer>
+                        </div>
+                    </body>
+                    </html>
